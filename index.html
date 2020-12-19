@@ -1,44 +1,71 @@
 <!DOCTYPE html>
-<html lang="fr">
-<!-- Entête du document -->
-<head>
-    <meta charset="UTF-8">
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titre de la page -->
-    <title>Titre de la page | Nom du site</title>
-    <!-- Auteur -->
-    <meta name="author" content="Laure Dinateur">
-    <!-- Description de la page -->
-    <meta name="description" content="Description courte du contenu de la page"/>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body {
+                background-color: rgb(191, 211, 255);
+            }
+            h1 {
+                color: rgb(255, 0, 0);
+                font-size: 30px;
+                font-style: blond;
+                font-weight: bold;
+            }
+            h2 {
+                color: rgb(255, 162, 0);
+                font-size: 28px;
+            }
+            h3 {
+                color: rgb(17, 0, 255);
+                font-size: 26px;
+            }
+            h6 {
+                color: rgb(18, 214, 0);
+                font-size: 22px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Simeon's blog</h1>
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- Icone de base -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16">
-</head>
-<!-- Corps du document -->
-<body>
-<!-- Entête de la page -->
-<header>
-<h1> Bonjour le monde !</h1>
-  
-</header>
-
-<!-- Contenu principal de la page. Partie qui sera scannée par les robots -->
-<main>
-  
-</main>
-
-<!-- Contenu secondaire. Pas scanné par les robots -->
-<aside>
-  
-</aside>
-
-<!-- Pied de page de la page -->
-<footer>
-    
-</footer>
-</body>
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#grenouille">La grenouille</a></li>
+            <li><a href="#tortue">La tortue</a></li>
+        </ul>
+        
+        <h2 id="grenouille">La grenouille</h2>
+        <h6>Elle saute</h6>
+        
+        <p>
+            La grenouille saute de pierre en pierre et 
+            de flaque en flaque.
+        </p>
+        
+        <h6>Elle nage</h6>
+        
+        <p>
+            La grenouille nage, dans les maréquages, dans les
+            étangs et dans des abreuvoires d'animaux.
+        </p>
+        
+        <h2 id="tortue">La tortue</h2>
+        <h6>Elle se promène</h6>
+        
+        <p>
+            La tortue se promène tout lentement et sans se 
+            presser avec du zène total
+        </p>
+        
+        <h6>Elle mange</h6>
+        
+        <p>
+            La tortue mange des toutes petites choses, tout
+            lentement et sans se presser avec du zène total 
+        </p>
+        
+    </body>
 </html>
